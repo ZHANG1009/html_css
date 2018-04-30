@@ -1,0 +1,175 @@
+body{
+	background-image: url("moviebg.png");
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+/*page text uses 10pt font
+the page body has no padding or margin*/
+
+
+#top_banner {
+	background-image: url("rancidbannerbg.png");
+	background-repeat: repeat-x;  /*background image repeats horizontally across the length of the page*/
+	height: 50px;
+	text-align: center;
+}
+/*rancidbanner.png at the center of the top banner*/
+
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 3px 3px #999999;  /*a shadow located 3px right and 3px down from the original text*/
+}
+
+
+
+#overall{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px #999999;  /*a 5px by 5px gray box shadow with a blur distance of 5px*/
+	border-radius: 20px;  /*a 20px rounded corner radius on its borders*/
+	background-color: #EEEEEE;	
+}
+
+
+
+#left_top{
+	background-image: url("rottenlargebg.png");
+	background-repeat: repeat-x;
+	height: 83px;
+	font-size: 48pt;
+	color: red;
+	font-style: bold;
+	
+}
+
+
+
+#left_top img{
+	vertical-align: text-bottom;
+}
+
+
+
+.left_radius{
+	border-top-left-radius: 20px;
+}
+
+
+
+#reviews{
+	width: 550px;
+}
+
+
+
+#left_re{
+	margin-left: 2%;
+	width: 47%;
+	float: left;
+}
+
+
+
+#right_re{
+	margin-left: 51%;
+	width: 47%;
+}
+
+
+
+.re_box{
+	border: 2px solid #CCCCCC;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	min-height: 30px;
+}
+
+
+
+p img{
+	float: left;
+	margin-right: 5px;
+}
+
+
+
+p {
+	padding-bottom: 20px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+
+
+.publication {
+	font-style: italic;
+}
+
+
+
+#overview{
+	background-color: #A2B964;
+	width: 250px;
+	float: right;
+	border-top-right-radius: 20px;
+}
+
+
+
+#overview img{
+	border-top-right-radius: 20px;
+}
+
+
+
+dl{
+	padding: 10px;
+}
+
+
+
+dt{
+	font-weight: bold;
+}
+
+
+
+dd{
+	margin-bottom: 10px;
+}
+
+
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#date{
+	background-color: #A2B964;
+	clear: both;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+
+#validators {
+	text-align: right;	
+}
+
